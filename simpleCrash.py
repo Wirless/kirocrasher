@@ -48,7 +48,7 @@ def kill(tab):
         return
     #send houseParseWindow if logged in successfuly
     print ">>>  ATAK"
-    s.send(addMessageLenght(chr(0x8a)))    
+    s.send(addMessageLenght(chr(0x8A)))    
     sleep(1)
     #close connection and finalize script
     print u">>>> Rozłączenie"
